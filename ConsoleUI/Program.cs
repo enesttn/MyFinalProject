@@ -1,14 +1,12 @@
-﻿using Business.Concrete;
+using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 
-class Program
-{
-    static void Main()
-    {
-        ProductTest();
+
+    
+         ProductTest();
         //CategoryTest();
-    }
+    
 
     static void CategoryTest()
     {
@@ -36,4 +34,4 @@ class Program
             Console.WriteLine(result.Message);
         }
     }
-}
+
